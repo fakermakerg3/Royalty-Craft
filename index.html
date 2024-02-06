@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+		
+		<style>
+			#b{position: relative;
+			left:-100px;}
+		</style>
+		
+        <meta charset="utf-8">
+        <title>Royalty Craft</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex" style="margin-top: 56px;">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Ben Arous, Tunisia</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>amdouninidhal5a@gmail.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="https://www.facebook.com/profile.php?id=100007301896195" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="https://twitter.com/NidhalAMDOUNI2" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="https://www.instagram.com/nidhal_page/" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="https://tn.linkedin.com/in/nidhal-amdouni-20a805296" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary" style=" position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */; z-index: 5;" >
+            <div class="container" >
+                <nav class="navbar navbar-dark navbar-expand-lg py-0"  >
+                    <a href="index.html" class="navbar-brand" >
+                        <h2 class="text-white fw-bold d-block">Royalty<span class="text-secondary">Craft</span> </h2>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+							<a href="#team" class="nav-item nav-link">Our Team</a>
+                            <a href="#service" class="nav-item nav-link">Services</a>
+                            <a href="#project" class="nav-item nav-link">Results</a>
+							
+							<a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="https://calendly.com/amdouninidhal5a/30min?month=2024-01" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;"></div></a></div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Schedule A Meeting</span>
+                        </div>
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0" >
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <video autoplay loop muted class="img-fluid" alt="First slide">
+                            <source src="img/3.mp4" type=""  ></video>
+                      
+                        
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp">Scale Your Business</h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">Build An Audience
+</h1>
+                                
+                                <a href="https://calendly.com/amdouninidhal5a/30min?month=2024-01" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Schedule A Meeting</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                       
+                       
+                        
+
+                        <video autoplay loop muted class="img-fluid" alt="Second slide">
+                            <source src="img/1.mp4" type=""  ></video>
+
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp">Scale Your Business</h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">Create The Highest Quality Videos Possible</h1>
+                                
+                                
+                                <a href="https://calendly.com/amdouninidhal5a/30min?month=2024-01" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Schedule A Meeting
+</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Fact Start -->
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    
+                     <center>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".2s">
+                       <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
+                        </div>
+                    </div></center>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5" id="about">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <video loop muted autoplay class="img-fluid w-75 rounded" style="margin-bottom: 25%;">
+    <source src="20230905_212134.mp4" type="video/mp4">
+</video>
+
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                              
+
+                                <video controls class="img-fluid w-100 rounded" alt="">
+                                    <source src="Nidhal.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h5 class="text-primary">About Us</h5>
+                        <h1 class="mb-4">Young … Yet <br> Professionals</h1>
+                        <p>A young and diverse agency, Royalty Craft brings together a team of professionals, including marketers, video editors, designers, and developers. 
+                            
+                            <br><br>Established in 2022, our strong work ethic and professional expertise are what set Royalty Craft apart. Our royal approach is adaptive, ensuring that you will always stay ahead of your competition and achieve the maximum possible results.
+                            </p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+<!-- Team Start -->
+<div class="container-fluid py-5 mb-5 team" id="team">
+    <div class="container">
+        <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+            <h5 class="text-primary">Our Team</h5>
+            <h1>Meet our expert Team</h1>
+        </div>
+        <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Nidhal amdouni.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Nidhal Amdouni
+</h4>
+                            <p class="m-0">CEO
+</p>
+                        </div>
+                        <div class="team-icon d-flex justify-content-center pb-4">
+                            <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://www.facebook.com/profile.php?id=100007301896195"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://twitter.com/NidhalAMDOUNI2"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://www.instagram.com/nidhal_page/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://www.facebook.com/profile.php?id=100007301896195"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Liwa eddine.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Liwa Eddine
+</h4>
+                            <p class="m-0">GRAPHIC DESIGNER
+</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Jihed andouni.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Jihed Amdouni
+</h4>
+                            <p class="m-0">CINEMATOGRAPHER
+</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Tanbir islam.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Tanbir Islam
+</h4>
+                            <p class="m-0">VIDEO EDITOR
+</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Krzysztof Rynkiewicz.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Krzysztof Rynkiewicz
+
+</h4>
+                            <p class="m-0">VIDEO EDITOR
+
+</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="rounded team-item">
+                <div class="team-content">
+                    <div class="team-img-icon">
+                        <div class="team-img rounded-circle">
+                            <img src="artists/Nour marnissi.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                        </div>
+                        <div class="team-name text-center py-3">
+                            <h4 class="">Nour Marnissi
+
+</h4>
+                            <p class="m-0">WEB DEVELOPPER
+
+</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5" id="service">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Services</h5>
+                    <h1>Services Built Specifically For Your Business</h1>
+                </div>
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fas fa-video fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Video Editing</h4>
+                                    <p class="mb-4">Transforming raw footage into captivating visual content. Our video editing services enhance your storytelling, making your message more compelling and shareable.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Creative & Design</h4>
+                                    <p class="mb-4">Creativity is our winning advantage. We specialize in delivering visually appealing designs that captivate attention and ensure you stand out prominently.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-code fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Web Design</h4>
+                                    <p class="mb-4">Crafting visually stunning and user-friendly websites tailored to your unique needs. We ensure a seamless blend of aesthetics and functionality for an engaging online presence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Web Development</h4>
+                                    <p class="mb-4">Building robust and scalable web solutions that align with your business goals. Our development expertise ensures a seamless user experience and efficient performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Digital Marketing</h4>
+                                    <p class="mb-4">Strategically promoting your brand in the digital landscape. Our tailored marketing solutions drive visibility, engagement, and conversion to maximize your online reach.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fas fa-phone fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Strategy & Consulting</h4>
+                                    <p class="mb-4">Every business requires a customized strategy to succeed. Our team will assist you in identifying opportunities and navigating unexplored roads to success.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- Project Start -->
+        <div class="container-fluid project py-5 mb-5" id="project">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Project</h5>
+                    <h1>Our Recently Projects Results</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="Farid_.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="https://www.instagram.com/faridsformula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-center">
+                                        <h4 class="text-secondary">Farid Moaveni</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="IMG_20240122_155647_801.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="https://www.instagram.com/faridsformula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-center">
+                                        <h4 class="text-secondary">Farid Moaveni</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="Farid(1).jpg" class="img-fluid w-100 rounded" alt="">
+                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px;"></div>
+                                <div class="project-content">
+                                    <a href="https://www.instagram.com/faridsformula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-center">
+                                        <h4 class="text-secondary">Farid Moaveni</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+								
+								<img src="Nick(1).jpg" class="img-fluid w-100 rounded" alt="">
+                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px;"></div>
+                                <div class="project-content">
+                                    <a href="https://www.instagram.com/nickmirabella?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-center">
+                                        <h4 class="text-secondary">Nick Mirabella</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+								<img src="Nick.jpg" class="img-fluid w-100 rounded" alt="">
+								<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px;">
+                                </div>
+                                <div class="project-content">
+                                    <a href="https://www.instagram.com/nickmirabella?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-center">
+                                        <h4 class="text-secondary">Nick Mirabella</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+								<img src="Nick (2).jpg" class="img-fluid w-100 rounded" alt="">
+                                <img src="Nick (1).jpg" style="margin-top: -7px;" id="a" class="img-fluid w-100 rounded" alt="">
+                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px;"></div>
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Nick Mirabella</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <script>
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        </script>
+
+
+
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5 mb-5" id="testimonial">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Testimonial</h5>
+                    <h1>Our Clients Reviews</h1>
+                </div>
+                <div  class="row g-5 justify-content-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <video class="img-fluid w-100 rounded-top" controls src="Nick Mirabella owner of the warehouse salon.mp4" ></video>
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Nick Mirabella</span>
+
+                        </div>
+						<div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                
+                            </div>
+                    </div>
+                    <div  class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+ <video class="img-fluid w-100 rounded-top" controls src="Brandon OConnell.mp4" ></video>                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Brandon OConnell</span>
+                            </div>
+                            
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                
+                            </div>
+                        </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="blog-item position-relative bg-light rounded">
+ <video class="img-fluid w-100 rounded-top" controls src="Farid leader at google.mp4" ></video>                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Farid Moaveni</span>
+                            
+                            </div>
+                            <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+			                </div>
+
+        <!-- Blog End -->
+
+       
+        
+
+       
+
+
+       
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                
+                
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>RoyaltyCraft
+</a>, All right reserved.</span>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
